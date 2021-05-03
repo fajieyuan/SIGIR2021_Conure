@@ -48,7 +48,7 @@ def main():
                         help='Sample from top k predictions')
     parser.add_argument('--beta1', type=float, default=0.9,
                         help='hyperpara-Adam')
-    parser.add_argument('--datapath', type=str, default='Data/Session/original_desen_finetune_click_nouser15per.csv',
+    parser.add_argument('--datapath', type=str, default='Data/Session/original_desen_finetune_click_nouserID.csv ',
                         help='data path')
     parser.add_argument('--datapath_index', type=str, default='Data/Session/pretrain_smal_index.csv',
                         help='data path')
