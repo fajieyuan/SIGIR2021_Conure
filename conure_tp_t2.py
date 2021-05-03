@@ -105,7 +105,7 @@ def main():
         'kernel_size': 3,
         'learning_rate':0.0001,
         'batch_size':512,
-        'iterations':10,
+        'iterations':15,
         'has_positionalembedding': args.has_positionalembedding,
         'max_position': args.max_position,
         'is_negsample':True,
