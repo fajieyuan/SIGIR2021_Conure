@@ -39,7 +39,7 @@ def main():
     parser.add_argument('--beta1', type=float, default=0.9,
                         help='hyperpara-Adam')
     #history_sequences_20181014_fajie_smalltest.csv
-    parser.add_argument('--datapath', type=str, default='Data/Session/original_desen_finetune_like_nouser15per.csv',
+    parser.add_argument('--datapath', type=str, default='Data/Session/original_desen_finetune_like_nouserID.csv ',
                         help='data path')
     parser.add_argument('--datapath_index', type=str, default='Data/Session/pretrain_smal_index.csv',
                         help='data path')
