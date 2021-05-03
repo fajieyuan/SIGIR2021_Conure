@@ -51,15 +51,6 @@ python conure_tp_t4.py
 python conure_tp_t4.py  
 
 
-### DataSet （desensitized）Links
-```
-https://drive.google.com/file/d/1imhHUsivh6oMEtEW-RwVc4OsDqn-xOaP/view?usp=sharin
-
-```
-
-
-
-
 ## Environments
 * Tensorflow (version: 1.10.0)
 * python 2.7
