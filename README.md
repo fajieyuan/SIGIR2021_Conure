@@ -15,11 +15,11 @@ Please cite our paper if you use our code or datasets in your publication.
 
 ---------------------------------------------------
 
-conure_tp_t1.py: Conure is trained on Task1 and then is pruned after convergence.
+conure_tp_t1.py: Conure is trained on Task1, and once converged it will be pruned.
 
 conure_ret_t1.py: Conure retrains the pruned architecture of Task1
 
-conure_tp_t2.py: Conure is trained on Task2 and then is pruned after convergence.
+conure_tp_t2.py: Conure is trained on Task2 and once converged it will be pruned.
 
 conure_ret_t2.py: Conure retrains the pruned architecture of Task2
 
@@ -115,4 +115,5 @@ python conure_tp_t4.py
 }
 ```
 
-
+## Hiring
+If you want to work with Dr. Yuan Fajie https://fajieyuan.github.io/, Please contact him by email yuanfajie@westlake.edu.cn. His lab is now recruiting visiting students, interns, research assistants, posdocs, and research scientists.  You can also contact him if you want to apply the Phd degree at Westlake University. 
