@@ -11,14 +11,16 @@ Please cite our paper if you use our code or datasets in your publication.
   year={2020}
 }
 ```
-## If you want to use PeterRec in real production system. I strongly suggest: (1) understand our code released here ; (2)using TFRecord (tf.data.Dataset) and tf.estimator to replace feed_dict (slow), which is several times faster; (3) contact yuanfajei@westlake.edu.cn if you could not achieve expected results. (E.g., No personalization for new user recommendation, 99% there are bugs in your project!!). Please also note that the code attached here was rewritten by Fajie after leaving Tencent. Though it was not used for this paper, you should reproduce results reported in the paper. 
+## If you want to use Conure in real production system. I strongly suggest: (1) understand our code released here ; (2)using TFRecord (tf.data.Dataset) and tf.estimator to replace feed_dict (slow), which is several times faster; (3) contact yuanfajie@westlake.edu.cn if you could not achieve expected results. (E.g., No personalization for new user recommendation, 99% there are bugs in your project!!). Please also note that the code attached here was rewritten by Fajie after leaving Tencent. Though it was not the original code used for this paper, you should reproduce all results reported in the paper. 
 
 ---------------------------------------------------
 
 conure_tp_t1.py: Conure is trained on Task1 and then is pruned after convergence.
+
 conure_ret_t1.py: Conure retrains the pruned architecture of Task1
 
 conure_tp_t2.py: Conure is trained on Task2 and then is pruned after convergence.
+
 conure_ret_t2.py: Conure retrains the pruned architecture of Task2
 
 
@@ -33,15 +35,19 @@ Put these dataset on Data/Session
 FOllowing these steps:
 
 python conure_tp_t1.py          After convergence (it takes more than 24 hours for training). We suggest 4 iterations. Parameters will be automatioally saved.
+
 python conure_tp_t1.py          You can manually stop this job if the results are satisfied (better than results reported in conure_tp_t1.py). Parameters will be automatioally saved.
 
 python conure_tp_t2.py
+
 python conure_tp_t2.py 
 
 python conure_tp_t3.py
+
 python conure_tp_t3.py  
 
 python conure_tp_t4.py
+
 python conure_tp_t4.py  
 
 
