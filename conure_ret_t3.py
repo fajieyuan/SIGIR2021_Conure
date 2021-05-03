@@ -41,7 +41,7 @@ def main():
     #history_sequences_20181014_fajie_smalltest.csv
     parser.add_argument('--datapath', type=str, default='Data/Session/original_desen_finetune_like_nouserID.csv ',
                         help='data path')
-    parser.add_argument('--datapath_index', type=str, default='Data/Session/pretrain_smal_index.csv',
+    parser.add_argument('--datapath_index', type=str, default='Data/Session/index.csv',
                         help='data path')
     parser.add_argument('--eval_iter', type=int, default=500,
                         help='Sample generator output evry x steps')
@@ -101,7 +101,7 @@ def main():
         'kernel_size': 3,
         'learning_rate':0.0001,
         'batch_size':512,
-        'iterations':200,
+        'iterations':100,
         'has_positionalembedding': args.has_positionalembedding,
         'max_position': args.max_position,
         'is_negsample':True,
