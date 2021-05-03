@@ -36,19 +36,19 @@ FOllowing these steps:
 
 python conure_tp_t1.py          After convergence (it takes more than 24 hours for training). We suggest 4 iterations. Parameters will be automatioally saved.
 
-python conure_tp_t1.py          You can manually stop this job if the results are satisfied (better than results reported in conure_tp_t1.py). Parameters will be automatioally saved.
+python conure_ret_t1.py          You can manually stop this job if the results are satisfied (better than results reported in conure_tp_t1.py). Parameters will be automatioally saved.
 
 python conure_tp_t2.py
 
-python conure_tp_t2.py 
+python conure_ret_t2.py 
 
 python conure_tp_t3.py
 
-python conure_tp_t3.py  
+python conure_ret_t3.py  
 
 python conure_tp_t4.py
 
-python conure_tp_t4.py  
+python conure_ret_t4.py  
 
 
 ## Environments
