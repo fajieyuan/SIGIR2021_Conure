@@ -11,7 +11,7 @@ Please cite our paper if you use our code or datasets in your publication.
   year={2020}
 }
 ```
-## If you want to use Conure in real production system. I strongly suggest: (1) understand our code released here ; (2)using TFRecord (tf.data.Dataset) and tf.estimator to replace feed_dict (slow), which is several times faster; (3) contact yuanfajie@westlake.edu.cn if you could not achieve expected results. (E.g., No personalization for new user recommendation, 99% there are bugs in your project!!). Please also note that the code attached here was rewritten by Fajie after leaving Tencent. Though it was not the original code used for this paper, you should reproduce all results reported in the paper. 
+## If you want to use Conure in real production system. I strongly suggest: (1) understand our code released here ; (2)using TFRecord (tf.data.Dataset) and tf.estimator to replace feed_dict (slow), which is several times faster; (3) contact yuanfajie@westlake.edu.cn if you could not achieve expected results. (E.g., No personalization for new user recommendation). (4) For simplicity, we use standard dense matrix to store the binary mask matrix. You can replace it with the sparse matrix which is much more parameter efficient. (5) Please also note that the code attached here was rewritten by Fajie after leaving Tencent. Though it was not the original code used for this paper, you should be able reproduce all results reported in the paper. 
 
 ---------------------------------------------------
 
