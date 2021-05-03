@@ -1,5 +1,3 @@
-# conure-sigir2021
-
 # SIGIR2021_Conurre
 # One Person, One Model, One World: Learning Continual User Representation without Forgetting
 
