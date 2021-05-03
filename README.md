@@ -115,7 +115,6 @@ python conure_ret_t4.py
 }
 ```
 
-
-## Hiring
+#  Hiring
 If you want to work with Dr. Yuan Fajie https://fajieyuan.github.io/, Please contact him by email yuanfajie@westlake.edu.cn. His lab is now recruiting visiting students, interns, research assistants, posdocs, and research scientists. You can also contact him if you want to apply the Phd degree of Westlake University. 
 He is open to various collaborations.
