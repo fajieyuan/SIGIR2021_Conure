@@ -134,7 +134,7 @@ def main():
         'kernel_size': 3,
         'learning_rate':0.0001,
         'batch_size':512,
-        'iterations':100,
+        'iterations':30,
         'has_positionalembedding': args.has_positionalembedding,
         'max_position': args.max_position,
         'is_negsample':True, #False denotes using full softmax
