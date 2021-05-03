@@ -77,7 +77,7 @@ def main():
                         help='hyperpara-Adam')
     parser.add_argument('--datapath', type=str, default='Data/Session/original_desen_finetune_click_nouserID.csv ',
                         help='data path')
-    parser.add_argument('--datapath_index', type=str, default='Data/Session/pretrain_smal_index.csv',
+    parser.add_argument('--datapath_index', type=str, default='Data/Session/index.csv',
                         help='data path')
     parser.add_argument('--eval_iter', type=int, default=1000,
                         help='Sample generator output evry x steps')
