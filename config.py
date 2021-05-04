@@ -47,9 +47,9 @@ sym_dict={}
 maskp_task1=0.7 #large value means more weights are masked maskp_task1=0, no weights will be masked
 maskp_task2=0.7
 maskp_task3=0.7
-maskp_task4=0.5
-maskp_task5=0.5
-maskp_task6=0.5
+maskp_task4=0.7
+maskp_task5=0.7
+maskp_task6=0.7
 maskp_task7=0.5
 maskp_task8=0.5
 maskp_task9=0.5
