@@ -29,7 +29,10 @@ conure_ret_t2.py: Conure retrains the pruned architecture of Task2
 
 ## Running our code:
 
-First download the dataset from:  https://drive.google.com/file/d/1imhHUsivh6oMEtEW-RwVc4OsDqn-xOaP/view?usp=sharin
+First download the TTL dataset from:  https://drive.google.com/file/d/1imhHUsivh6oMEtEW-RwVc4OsDqn-xOaP/view?usp=sharin
+            
+            or the ML dataset from: https://drive.google.com/file/d/1-_KmnZFaOdH11keLYVcgkf-kW_BaM266/view?usp=sharing
+
 Put these dataset on Data/Session
 
 FOllowing these steps:
