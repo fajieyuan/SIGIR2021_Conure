@@ -3,7 +3,6 @@
 
   
 ```
-Please cite our paper if you use our code or datasets in your publication.
 @article{yuan2020one,
   title={One Person, One Model, One World: Learning Continual User Representation without Forgetting},
   author={Yuan, Fajie and Zhang, Guoxiao and Karatzoglou, Alexandros and Jose, Joemon and Kong, Beibei and Li, Yudong},
