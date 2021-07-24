@@ -3,11 +3,12 @@
 
   
 ```
-@article{yuan2020one,
-  title={One Person, One Model, One World: Learning Continual User Representation without Forgetting},
+@inproceedings{yuan2021one,
+  title={One person, one model, one world: Learning continual user representation without forgetting},
   author={Yuan, Fajie and Zhang, Guoxiao and Karatzoglou, Alexandros and Jose, Joemon and Kong, Beibei and Li, Yudong},
-  journal={arXiv preprint arXiv:2009.13724},
-  year={2020}
+  booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={696--705},
+  year={2021}
 }
 ```
 ## If you want to use Conure in real production systems. I strongly suggest: (1) understand our code released here ; (2)using TFRecord (tf.data.Dataset) and tf.estimator to replace feed_dict (slow), which is several times faster (see https://zhuanlan.zhihu.com/p/53345706); (3) contact yuanfajie@westlake.edu.cn if you could not achieve expected results. (E.g., No personalization for new user recommendation);(4) For simplicity, we use standard dense matrix to store the binary mask matrix. You can replace it with the sparse matrix which is much more parameter efficient; (5) Please also note that the code attached here was rewritten by Fajie after leaving Tencent. Though it was not the original code used for this paper, you should be able to reproduce all results reported in the paper. 
