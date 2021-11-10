@@ -27,12 +27,13 @@ conure_ret_t2.py: Conure retrains the pruned architecture of Task2
 
 
 
-## Running our code: 
+
 ## Large-scale Recommendation Dataset for pretraining， transfer learning and user representation learning：
 
-First download the TTL dataset from:  https://drive.google.com/file/d/1imhHUsivh6oMEtEW-RwVc4OsDqn-xOaP/view?usp=sharin
+Download the TTL dataset from:  https://drive.google.com/file/d/1imhHUsivh6oMEtEW-RwVc4OsDqn-xOaP/view?usp=sharin
             or the ML dataset from: https://drive.google.com/file/d/1-_KmnZFaOdH11keLYVcgkf-kW_BaM266/view?usp=sharing
 
+## Running our code: 
 Put these dataset on Data/Session
 
 FOllowing these steps:
