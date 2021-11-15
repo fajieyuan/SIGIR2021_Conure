@@ -32,6 +32,7 @@ conure_ret_t2.py: Conure retrains the pruned architecture of Task2
 
 Download the TTL dataset from:  https://drive.google.com/file/d/1imhHUsivh6oMEtEW-RwVc4OsDqn-xOaP/view?usp=sharin
             or the ML dataset from: https://drive.google.com/file/d/1-_KmnZFaOdH11keLYVcgkf-kW_BaM266/view?usp=sharing
+
 TTL Dataset: 可用于推荐系统预训练，迁移学习，跨域推荐，冷启动推荐，用户表征学习，自监督学习等任务。
 ## Running our code: 
 Put these dataset on Data/Session
