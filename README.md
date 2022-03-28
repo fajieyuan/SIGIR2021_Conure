@@ -15,7 +15,8 @@ https://zhuanlan.zhihu.com/p/437671278
 ```
 ## If you want to use Conure in real production systems with hundreds of million items. I strongly suggest: (1) understand our code released here ; (2)using TFRecord (tf.data.Dataset) and tf.estimator to replace feed_dict (slow), which is several times faster (see https://zhuanlan.zhihu.com/p/53345706); (3) contact yuanfajie@westlake.edu.cn if you could not achieve expected results. (E.g., No personalization for new user recommendation);(4) For simplicity, we use standard dense matrix to store the binary mask matrix. You can replace it with the sparse matrix which is much more parameter efficient; (5) Please also note that the code attached here was rewritten by Fajie after leaving Tencent. Though it was not the original code used for this paper, you should be able to reproduce all results reported in the paper. 
 
-NextItNet pytorch version: https://github.com/syiswell/NextItNet-Pytorch
+### NextItNet pytorch version: https://github.com/syiswell/NextItNet-Pytorch
+### GRec pytorch version: https://github.com/hangjunguo/GRec
 
 ---------------------------------------------------
 
