@@ -12,6 +12,7 @@ https://zhuanlan.zhihu.com/p/437671278
   pages={696--705},
   year={2021}
 }
+```
 
 ### NextItNet pytorch version: https://github.com/syiswell/NextItNet-Pytorch
 ### GRec pytorch version: https://github.com/hangjunguo/GRec
