@@ -3,7 +3,7 @@
 Posts:
 https://zhuanlan.zhihu.com/p/437671278
 
-## Pytorch Codes （check the code in this paper）:  https://openreview.net/forum?id=PfuW84q25y9&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2022%2FTrack%2FDatasets_and_Benchmarks%2FAuthors%23your-submissions
+## Pytorch Code is here: https://github.com/yuangh-x/2022-NIPS-Tenrec
   
 ```
 @inproceedings{yuan2021one,
