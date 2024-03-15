@@ -4,7 +4,19 @@ Posts:
 https://zhuanlan.zhihu.com/p/437671278
 
 ## Pytorch Code is here: https://github.com/yuangh-x/2022-NIPS-Tenrec
+
+
+🤗 **New Resources**: four Large-scale datasets for evaluating foundation / transferable / cross-domain recommendaiton models.
+
+-  **PixelRec**: https://github.com/westlake-repl/PixelRec
+
+-  **MicroLens(DeepMind Talk)**: https://github.com/westlake-repl/MicroLens
   
+-  **NineRec(TPAMI)**: https://github.com/westlake-repl/NineRec 
+
+-  **Tenrec(NeurIPS)**: https://github.com/yuangh-x/2022-NIPS-Tenrec
+
+
 ```
 @inproceedings{yuan2021one,
   title={One person, one model, one world: Learning continual user representation without forgetting},
